@@ -1,0 +1,9 @@
+D:\Code_Code_Code\BlackCode\TestServerLikeDemon\obj\Debug\TestServerLikeDemon.csprojAssemblyReference.cache
+D:\Code_Code_Code\BlackCode\TestServerLikeDemon\obj\Debug\TestServerLikeDemon.Properties.Resources.resources
+D:\Code_Code_Code\BlackCode\TestServerLikeDemon\obj\Debug\TestServerLikeDemon.csproj.GenerateResource.cache
+D:\Code_Code_Code\BlackCode\TestServerLikeDemon\obj\Debug\TestServerLikeDemon.csproj.CoreCompileInputs.cache
+D:\Code_Code_Code\BlackCode\TestServerLikeDemon\bin\Debug\TestServerLikeDemon.exe.config
+D:\Code_Code_Code\BlackCode\TestServerLikeDemon\bin\Debug\TestServerLikeDemon.exe
+D:\Code_Code_Code\BlackCode\TestServerLikeDemon\bin\Debug\TestServerLikeDemon.pdb
+D:\Code_Code_Code\BlackCode\TestServerLikeDemon\obj\Debug\TestServerLikeDemon.exe
+D:\Code_Code_Code\BlackCode\TestServerLikeDemon\obj\Debug\TestServerLikeDemon.pdb

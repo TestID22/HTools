@@ -1,0 +1,7 @@
+D:\Code_Code_Code\GWSN-GetWebServerName-\GetWebServerName\bin\Debug\GetWebServerName.exe.config
+D:\Code_Code_Code\GWSN-GetWebServerName-\GetWebServerName\bin\Debug\GetWebServerName.exe
+D:\Code_Code_Code\GWSN-GetWebServerName-\GetWebServerName\bin\Debug\GetWebServerName.pdb
+D:\Code_Code_Code\GWSN-GetWebServerName-\GetWebServerName\obj\Debug\GetWebServerName.csprojAssemblyReference.cache
+D:\Code_Code_Code\GWSN-GetWebServerName-\GetWebServerName\obj\Debug\GetWebServerName.csproj.CoreCompileInputs.cache
+D:\Code_Code_Code\GWSN-GetWebServerName-\GetWebServerName\obj\Debug\GetWebServerName.exe
+D:\Code_Code_Code\GWSN-GetWebServerName-\GetWebServerName\obj\Debug\GetWebServerName.pdb
