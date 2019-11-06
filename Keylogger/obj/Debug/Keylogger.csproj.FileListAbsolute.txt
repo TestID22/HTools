@@ -1,0 +1,9 @@
+D:\Code_Code_Code\HTools\Keylogger\bin\Debug\Keylogger.exe.config
+D:\Code_Code_Code\HTools\Keylogger\bin\Debug\Keylogger.exe
+D:\Code_Code_Code\HTools\Keylogger\bin\Debug\Keylogger.pdb
+D:\Code_Code_Code\HTools\Keylogger\obj\Debug\Keylogger.csprojAssemblyReference.cache
+D:\Code_Code_Code\HTools\Keylogger\obj\Debug\Keylogger.Properties.Resources.resources
+D:\Code_Code_Code\HTools\Keylogger\obj\Debug\Keylogger.csproj.GenerateResource.cache
+D:\Code_Code_Code\HTools\Keylogger\obj\Debug\Keylogger.csproj.CoreCompileInputs.cache
+D:\Code_Code_Code\HTools\Keylogger\obj\Debug\Keylogger.exe
+D:\Code_Code_Code\HTools\Keylogger\obj\Debug\Keylogger.pdb
