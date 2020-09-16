@@ -19,7 +19,7 @@ namespace clientBot4._7
             this.url = url;
             this.command = GetCommandFromServer(this.url);
         }
-
+        //ой, как криво написал, regular ex. нужно переписать.
         private string GetCommandFromServer(string url)
         {
             string data = default;

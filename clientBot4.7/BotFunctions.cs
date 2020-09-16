@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using System.Security.Cryptography;
@@ -10,12 +12,14 @@ using System.Windows.Forms;
 
 namespace clientBot4._7
 {
+    
     class BotFunctions
     {
         private Form form = new Form();
         
         public BotFunctions()
         {
+            //Todo AutoDownloadMethod
         }
 
         public void ShowPrettyPictures()
@@ -28,7 +32,7 @@ namespace clientBot4._7
                 form.Size = new Size(Width, Height);
                 try
                 {
-                    var timer = new System.Windows.Forms.Timer() { Interval = 40 };
+                    var timer = new Timer() { Interval = 40 };
                     timer.Tick += (s, e) =>
                     {
                         Graphics graphics = form.CreateGraphics();
@@ -45,5 +49,25 @@ namespace clientBot4._7
                 }
             }
         }
+        //можно супер кратко записать, но читабельность страдает
+        public void GetAllFilesOnDesktop()
+        {
+            string DesktopFilesPath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
+            string[] files = Directory.GetFiles(DesktopFilesPath);
+
+            using (StreamWriter sr = new StreamWriter("d:/deskTopfiles.txt"))
+            {
+                int i = 0;
+                foreach(var file in files)
+                {
+                    sr.WriteLine(file);
+                }
+                sr.Close();
+            }
+        }
+        
+        
+
+
     }
 }
