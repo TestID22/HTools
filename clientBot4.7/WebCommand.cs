@@ -30,7 +30,7 @@ namespace clientBot4._7
                 data = sr.ReadToEnd();
             }
             Match re = Regex.Match(data, @"<p>command(\s\w\w\w)</p>");
-            string command = re.Groups[1].Value;
+            string command = re.Groups[1].Value.Trim();
             return command;
         }
     }
