@@ -1,0 +1,7 @@
+E:\Code\Обучение мастерству Кода\ServerAndStreamWork\ServerAndStreamWork\bin\Debug\ServerAndStreamWork.exe.config
+E:\Code\Обучение мастерству Кода\ServerAndStreamWork\ServerAndStreamWork\bin\Debug\ServerAndStreamWork.exe
+E:\Code\Обучение мастерству Кода\ServerAndStreamWork\ServerAndStreamWork\bin\Debug\ServerAndStreamWork.pdb
+E:\Code\Обучение мастерству Кода\ServerAndStreamWork\ServerAndStreamWork\obj\Debug\ServerAndStreamWork.csprojAssemblyReference.cache
+E:\Code\Обучение мастерству Кода\ServerAndStreamWork\ServerAndStreamWork\obj\Debug\ServerAndStreamWork.csproj.CoreCompileInputs.cache
+E:\Code\Обучение мастерству Кода\ServerAndStreamWork\ServerAndStreamWork\obj\Debug\ServerAndStreamWork.exe
+E:\Code\Обучение мастерству Кода\ServerAndStreamWork\ServerAndStreamWork\obj\Debug\ServerAndStreamWork.pdb
